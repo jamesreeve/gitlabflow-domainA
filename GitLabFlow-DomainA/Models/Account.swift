@@ -17,14 +17,16 @@ public enum AccountType: String {
 
 public struct Account: Codable, Hashable {
     public let name: String
+    public let nickName: String?
     public let bsb: String
     public let accountNumber: String
     public let bankName: String?
     public let currentBalance: Decimal
     public let availableBalance: Decimal
     
-    init(name: String, bsb: String, accountNumber: String, bankName: String, currentBalance: Decimal, availableBalance: Decimal) {
+    init(name: String, nickName: String?, bsb: String, accountNumber: String, bankName: String?, currentBalance: Decimal, availableBalance: Decimal) {
         self.name = name
+        self.nickName = nickName
         self.bsb = bsb
         self.accountNumber = accountNumber
         self.bankName = bankName

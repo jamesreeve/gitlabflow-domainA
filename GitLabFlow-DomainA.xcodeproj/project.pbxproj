@@ -11,6 +11,7 @@
 		793B91BE23A05475000BFA7E /* GitLabFlow_DomainATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B91BD23A05475000BFA7E /* GitLabFlow_DomainATests.swift */; };
 		793B91C023A05475000BFA7E /* GitLabFlow_DomainA.h in Headers */ = {isa = PBXBuildFile; fileRef = 793B91B223A05475000BFA7E /* GitLabFlow_DomainA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		793B91CB23A054A8000BFA7E /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B91CA23A054A8000BFA7E /* Account.swift */; };
+		793B91CD23A06532000BFA7E /* Payee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793B91CC23A06532000BFA7E /* Payee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		793B91BD23A05475000BFA7E /* GitLabFlow_DomainATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitLabFlow_DomainATests.swift; sourceTree = "<group>"; };
 		793B91BF23A05475000BFA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		793B91CA23A054A8000BFA7E /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		793B91CC23A06532000BFA7E /* Payee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				793B91CA23A054A8000BFA7E /* Account.swift */,
+				793B91CC23A06532000BFA7E /* Payee.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793B91CD23A06532000BFA7E /* Payee.swift in Sources */,
 				793B91CB23A054A8000BFA7E /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
